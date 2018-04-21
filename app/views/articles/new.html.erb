@@ -1,3 +1,5 @@
+<%= render 'articles/shared/error_message' %>
+
 <h1>Create an article</h1>
 
 <%= form_for @article do |f| %>
@@ -13,3 +15,5 @@
     <%= f.submit %>
   </p>
 <% end %>
+
+<%= link_to 'Back to article listing', articles_path %>
