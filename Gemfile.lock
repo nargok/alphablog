@@ -37,7 +37,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     arel (6.0.4)
-    autoprefixer-rails (8.3.0)
+    autoprefixer-rails (8.4.1)
       execjs
     binding_of_caller (0.8.0)
       debug_inspector (>= 0.0.1)
@@ -87,7 +87,7 @@ GEM
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
     pg (0.21.0)
-    rack (1.6.9)
+    rack (1.6.10)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (4.2.5)
