@@ -11,6 +11,8 @@ class ArticlesController < ApplicationController
 
   def create
     @article = Article.new(article_params)
+    # TODO 後で正しいユーザを設定する
+    @article.user = User.first
     if @article.save
       flash[:success] = "Article was susccessfully created!"
       redirect_to article_path(@article)
